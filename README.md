@@ -1,5 +1,5 @@
 <q align="center">
-  <img src="images/Qt.png" alt="logo app" width="100">
+  <img src="images/Qt.png" alt="logo app">
 </q>
 
 # gallery.app.modile
