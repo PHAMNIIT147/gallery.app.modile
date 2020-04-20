@@ -10,7 +10,7 @@
 
 # About 
 
-# Component:
+# Platform:
 ## Mobile
 
 Preparing Library:
