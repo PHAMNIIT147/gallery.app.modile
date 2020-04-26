@@ -1,6 +1,4 @@
-TEMPLATE = app
-
-QT += quick sql qml svg
+QT += quick sql svg
 
 CONFIG += c++11
 
@@ -18,17 +16,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp
 
-RESOURCES += \
-    gallery.qrc
+RESOURCES += qml.qrc
 
-LIBS += -L$$OUT_PWD/../gallery-core/ -lgallery-core
-INCLUDEPATH += $$PWD/../gallery-core
-DEPENDPATH += $$PWD/../gallery-core
-
-contains(ANDROID_TARGET_ARCH, x86)
-    ANDROID_EXTRA_LIBS = \
-            $$[QT_INSTALL_LIBS]/libQt5Sql.so
-{
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
 
